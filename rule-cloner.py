@@ -2,10 +2,10 @@ import requests
 import argparse
 import json
 
-# Constants
+
 BASE_URL = "https://dashboard.signalsciences.net/api/v0"
 
-# Functions
+
 def get_headers(api_user, api_token):
     return {
         "Content-Type": "application/json",
@@ -53,7 +53,7 @@ parser.add_argument('--destination_site', help='Destination site ID')
 parser.add_argument('--rule_id', help='Rule ID to copy')
 parser.add_argument('--show_rules', action='store_true', help='Show all rules for the specified site')
 
-# Main Execution
+
 if __name__ == "__main__":
     args = parser.parse_args()
 
