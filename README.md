@@ -1,6 +1,9 @@
 # Signal Sciences Rule Cloner Script
 
 This repository contains two Python scripts that facilitate the cloning of rules and rate limit rules within the Signal Sciences dashboard from one site to another.
+This is as-is and not an official feature of the product, therefore there is no support. 
+
+USE AT YOUR OWN RISK!
 
 ## Prerequisites
 
