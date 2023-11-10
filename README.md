@@ -46,3 +46,10 @@ python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff --source_site st
 python3 rule_cloner.py <api_user> <api_token> <corp> --source_site <source_site_id> --destination_site <destination_site_id>
 # example
 python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff --source_site staging --destination_site production
+```
+## Disclaimer
+Please note that the tools and scripts provided in this repository are not officially supported by Fastly. They are developed and maintained on a voluntary basis. 
+As such, we offer no guarantees regarding their reliability or suitability for any specific purpose.
+
+Users are advised to utilize these scripts at their own risk. Updates and improvements will be made as and when possible, but no fixed timelines can be committed to. 
+We appreciate your understanding and encourage users to contribute or report any issues they encounter.
