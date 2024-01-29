@@ -26,7 +26,7 @@ The scripts require Signal Sciences API credentials and the IDs of the source an
 ```bash
 python3 rule_cloner.py <api_user> <api_token> <corp> --source_site <source_site_id> --destination_site <destination_site_id> --show_rules
 # example 
-python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff --source_site staging --destination_site production --show_rules
+python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff my_corp --source_site staging --destination_site production --show_rules
 ```
 
 
@@ -36,7 +36,7 @@ To copy a single rule from one site to another, you can run rule_cloner.py with 
 ```bash
 python3 rule_cloner.py <api_user> <api_token> <corp> --source_site <source_site_id> --destination_site <destination_site_id> --rule_id <rule_id>
 # example
-python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff --source_site staging --destination_site production --rule_id 699effd2lop3daf55
+python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff my_corp --source_site staging --destination_site production --rule_id 699effd2lop3daf55
 
 ```
 
@@ -45,7 +45,7 @@ python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff --source_site st
 ```bash
 python3 rule_cloner.py <api_user> <api_token> <corp> --source_site <source_site_id> --destination_site <destination_site_id>
 # example
-python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff --source_site staging --destination_site production
+python3 rule_cloner.py user@example.com 12345-abcdefg-000-fffff my_corp --source_site staging --destination_site production
 ```
 ## Disclaimer
 Please note that the tools and scripts provided in this repository are not officially supported by Fastly. They are developed and maintained on a voluntary basis. 
